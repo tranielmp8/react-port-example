@@ -83,3 +83,7 @@ input::placeholder {
 textarea::placeholder {
   color: #111;
 }
+
+/* Projects */
+
+.card {}

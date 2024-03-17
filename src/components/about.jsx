@@ -42,7 +42,7 @@ export default function About() {
         <div className='flex mt-8 gap-2'>
           <div className='flex items-center justify-center'>
             
-            <div className='lg:flex md:flex-col space-x-2 '>
+            <div className='lg:flex space-x-2 '>
               <h2 className='text-[32px] font-semibold text-red-600 py-2 mr-2 uppercase'>Certificates</h2>
               <a href='#' target='_blank' className='neno-button shadow-xl hover:shadow-red-800/50 text-white border-2 hover:bg-red-800 border-red-800 rounded-lg py-4 px-8  relative overflow-hidden ' >CourseCareers</a>
               <a href='#' target='_blank' className='neno-button shadow-xl hover:shadow-red-800/50 text-white border-2 hover:bg-red-800 border-red-800 rounded-lg py-4 px-8  relative overflow-hidden ' >Data Analyst</a>
