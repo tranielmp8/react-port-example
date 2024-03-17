@@ -24,7 +24,7 @@ function App() {
     <>
       {
         loading ?
-        <div className="bg-slate-900 h-[100vh] flex justify-center items-center">
+        <div className="app h-[100vh] flex justify-center items-center">
           <FidgetSpinner
             visible={true}
             height="80"
@@ -37,7 +37,7 @@ function App() {
             />
         </div>
         :
-        <div className="bg-slate-900">
+        <div className="">
         <Navbar />
         <Banner />
         <About />

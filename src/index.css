@@ -1,21 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
 
 body {
   color: white;
+  background: #111;
+  font-family: "Martian Mono", monospace;
 }
+
+.nav-link:hover {
+  box-shadow: 0 0 25px rgb(241, 43, 43);
+  transition: 0.3s ease-in-out;
+  border: rgb(241, 43, 43) 2px solid;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.hamburger {
+  background-color: #111;
+}
+
+.logo:hover {
+  box-shadow: 0 0 25px rgb(241, 43, 43);
+  transition: 0.3s ease-in-out;
+}
+
 
 .glow {
   transition: all 0.3s ease-in-out;
 }
 
 .glow:hover {
-  box-shadow: 0 0 25px rgb(206, 71, 193);
+  box-shadow: 0 0 25px rgb(241, 43, 43);
 }
 
-.img_glow {
-  box-shadow: 0 0 55px rgb(206, 71, 193);
+/* .img_glow {
+  box-shadow: 0 0 55px rgb(241, 43, 43);
+} */
+
+.banner-img {
+  box-shadow: rgba(241, 1, 1, 0.534) 0px 19px 38px, rgba(253, 0, 0, 0.466) 0px 15px 12px;
 }
 
 .neno-button {
@@ -23,9 +48,38 @@ body {
 }
 
 .neno-button:hover {
-  box-shadow: 0 0 25px rgb(206, 71, 193);
+  box-shadow: 0 0 25px rgb(241, 43, 43);
 }
 
 .tech-glow {
-  box-shadow: 0 0 15px rgb(206, 71, 193);
+  box-shadow: 0 0 15px rgb(241, 43, 43);
+}
+
+.tech-icons {
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.tech-container {
+  transition: 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.tech-container:hover {
+  box-shadow: 0 0 15px rgb(241, 43, 43);
+  border-radius: 9px;
+
+}
+
+.tech-container:hover .tech-icons {
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+}
+
+input::placeholder {
+  color: #111;
+}
+
+textarea::placeholder {
+  color: #111;
 }
