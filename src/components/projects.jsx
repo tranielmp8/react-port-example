@@ -22,7 +22,7 @@ export default function Projects() {
           <img  height={350} width={300} className='bg-white rounded-xl border-2 border-red-600' src={img1} alt="" />
           <div >
             <h2 className='text-[32px] text-red-600 flex items-center justify-center'>Github Discussions</h2>
-            <p className='p-2'>Github Discussions is a place only for github users. Create Topics and Post within them. Reply to the posts. Note: Click sign in even if you get an error</p>
+            <p className='p-2'>Github Discussions is a place only for github users. Create Topics and Post within that topic. Users can reply to the posts. Note: Click sign in even if you get an error - issue with nextjs caching</p>
           </div>
           <div className='project-tech flex'>
             <span className='pill p-2 m-1 bg-red-600 rounded-2xl'>Nextjs</span>
@@ -38,7 +38,7 @@ export default function Projects() {
           <img  height={350} width={300} className='bg-white rounded-xl border-2 border-red-600' src={img4} alt="" />
           <div >
             <h2 className='text-[32px] text-red-600 flex items-center justify-center'>Ticket Master</h2>
-            <p className='p-2'>Application for Service Tickets. Authenticated users can create their own tickets. Users can delete their own tickets. Priority option available  </p>
+            <p className='p-2'>Application for Service Tickets. Authenticated users can create their own tickets. Users are able to delete their own tickets. Priority option available  </p>
           </div>
           <div className='project-tech flex'>
             <span className='pill p-2 m-1 bg-red-600 rounded-2xl'>Nextjs</span>
@@ -54,7 +54,7 @@ export default function Projects() {
           <img  height={300} width={300} className='bg-white rounded-xl border-2 border-red-600' src={img3} alt="" />
           <div >
             <h2 className='text-[32px] text-red-600 flex items-center justify-center'>Vue Flex</h2>
-            <p className='p-2'>Authenticated users can create workout cards. Click the plus sign at the top right after logging in. Add tags to your workouts cards. Click tags after completion </p>
+            <p className='p-2'>Authenticated users can create workout cards. Click the plus sign at the top right after logging in. Add todo tags to your workout cards. Click tags after completion </p>
           </div>
           <div className='project-tech flex'>
             <span className='pill p-2 m-1 bg-red-600 rounded-2xl'>Vuejs</span>

@@ -29,8 +29,8 @@ function App() {
             visible={true}
             height="80"
             width="80"
-            ballColors={["#5b2fe0", "#ffffff", "#000000"]}
-            backgroundColor=" #FF00FF"
+            ballColors={["#ffffff", "#ffffff", "#ffffff"]}
+            backgroundColor=" #ff0000"
             ariaLabel="fidget-spinner-loading"
             wrapperStyle={{}}
             wrapperClass="fidget-spinner-wrapper"
