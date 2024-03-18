@@ -1,6 +1,6 @@
 
 import {AiFillGithub} from 'react-icons/ai';
-import {FaLinkedinIn, FaInstagram} from 'react-icons/fa';
+import {FaLinkedinIn, FaInstagram, FaDiscord} from 'react-icons/fa';
 import {FiTwitter} from 'react-icons/fi';
 import img from '../assets/lp_code.png'
 import AOS from 'aos';
@@ -23,17 +23,15 @@ export default function Banner() {
         <div data-aos='fade-right' className='flex mt-8 gap-2'>
           <div className='flex items-center justify-center'>
             <div className='flex space-x-2 '>
-              <a href="#" className='text-red-600 hover:text-red-500 rounded-full glow p-2'>
+              <a href="https://github.com/tranielmp8" target='_blank' className='text-red-600 hover:text-red-500 rounded-full glow p-2'>
                 <AiFillGithub className='text-[28px]' />
               </a>
-              <a href="#" className='text-red-600 hover:text-red-500 rounded-full glow p-2'>
+              <a href="https://www.linkedin.com/in/traniel-pride/" target='_blank' className='text-red-600 hover:text-red-500 rounded-full glow p-2'>
                 <FaLinkedinIn className='text-[28px]' />
               </a>
-              <a href="#" className='text-red-600 hover:text-red-500 rounded-full glow p-2'>
-                <FiTwitter className='text-[28px]' />
-              </a>
-              <a href="#" className='text-red-600 hover:text-red-500 rounded-full glow p-2'>
-                <FaInstagram className='text-[28px]' />
+             
+              <a href="#home" className='text-red-600 hover:text-red-500 rounded-full glow p-2' onClick={() => alert('My Discord Alias: kakashi_sensei#8333')}>
+                <FaDiscord className='text-[28px]' />
               </a>
             </div>
           </div>
