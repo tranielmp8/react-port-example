@@ -17,7 +17,7 @@ export default function About() {
       <div  className='h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white'>
         <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-8 leading-normal text-red-600 uppercase'>About Me
         </h1>
-        <p data-aos='fade-left' className='mb-3'>I am an Aspiring Software Developer trying to break into the programming world. As tech continues to grow I will do my best to grow with it. Currently I am a Data Analyst with skills in Power BI and Data Gathering. I have a Bachelor's degree in Computer Information Systems and many different certificates </p>
+        <p data-aos='fade-left' className='mb-3'>I am an Aspiring Software Developer currently in the data part of the tech world. As tech continues to evolve I will do my best to grow with it. Currently I am a Data Analyst with skills in Power BI, SQL and Data Gathering. I have a Bachelor's degree in Computer Information Systems and a couple of certificates </p>
         <div className="skills flex w-[50%] justify-between items-center">
               <ul>
                 <h3 className='text-2xl text-red-600'>Software Developer Skills</h3>
