@@ -86,4 +86,6 @@ textarea::placeholder {
 
 /* Projects */
 
-.card {}
+.project-container:hover {
+  box-shadow: 0 0 15px rgb(241, 43, 43);
+}
