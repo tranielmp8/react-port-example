@@ -51,6 +51,8 @@ body {
   box-shadow: 0 0 25px rgb(241, 43, 43);
 }
 
+
+
 .tech-glow {
   box-shadow: 0 0 15px rgb(241, 43, 43);
 }
@@ -88,4 +90,18 @@ textarea::placeholder {
 
 .project-container:hover {
   box-shadow: 0 0 15px rgb(241, 43, 43);
+}
+
+@media screen and (max-width: 700px) {
+  .cert-btn {
+    flex-direction: column;
+  }
+
+  .projects {
+    padding: 10px;
+  }
+
+  .pill {
+    padding: 7px;
+  }
 }

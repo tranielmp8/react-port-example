@@ -15,7 +15,7 @@ export default function Projects() {
   }, [])
 
   return (
-    <div id='Projects' className='p-16 flex flex-col min-h-screen items-center justify-center '>
+    <div id='Projects' className='projects p-16 flex flex-col min-h-screen items-center justify-center '>
       <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-red-600'>Projects</h1>
       <div data-aos='fade-up' className='cards grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-around gap-7'>
         <div className='w-72 rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
