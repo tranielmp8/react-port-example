@@ -101,6 +101,10 @@ textarea::placeholder {
     padding: 10px;
   }
 
+  .neon-button {
+    margin-bottom: 7px;
+  }
+
   .pill {
     padding: 7px;
     margin: 5px 2px;

@@ -1,7 +1,6 @@
 
 import {AiFillGithub} from 'react-icons/ai';
-import {FaLinkedinIn, FaInstagram, FaDiscord} from 'react-icons/fa';
-import {FiTwitter} from 'react-icons/fi';
+import {FaLinkedinIn, FaDiscord} from 'react-icons/fa';
 import img from '../assets/lp_code.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
