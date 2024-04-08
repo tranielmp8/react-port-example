@@ -43,11 +43,11 @@ body {
   box-shadow: rgba(241, 1, 1, 0.534) 0px 19px 38px, rgba(253, 0, 0, 0.466) 0px 15px 12px;
 }
 
-.neno-button {
+.neon-button {
   transform: all 0.3s ease-in-out;
 }
 
-.neno-button:hover {
+.neon-button:hover {
   box-shadow: 0 0 25px rgb(241, 43, 43);
 }
 
@@ -73,6 +73,7 @@ body {
 
 }
 
+
 .tech-container:hover .tech-icons {
   transition: 0.3s ease-in-out;
   opacity: 1;
@@ -88,6 +89,17 @@ textarea::placeholder {
 
 /* Projects */
 
+.cards {
+  justify-content: center;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  
+  width:60%;
+}
+
 .project-container:hover {
   box-shadow: 0 0 15px rgb(241, 43, 43);
 }
@@ -99,6 +111,10 @@ textarea::placeholder {
 
   .projects {
     padding: 10px;
+  }
+
+  .cards {
+    margin-left: 1rem;
   }
 
   .neon-button {

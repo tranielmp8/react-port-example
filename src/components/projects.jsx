@@ -15,11 +15,12 @@ export default function Projects() {
   }, [])
 
   return (
-    <div id='Projects' className='projects p-16 flex flex-col min-h-screen items-center justify-center '>
+    <div id='Projects' className='projects p-15 flex flex-col min-h-screen items-center justify-center '>
       <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-red-600'>Projects</h1>
-      <div data-aos='fade-up' className='cards grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-around gap-7'>
-        <div className='w-72 rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
-          <img  height={350} width={300} className='bg-white rounded-xl border-2 border-red-600' src={img1} alt="" />
+      <div data-aos='fade-up' className='cards grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7 '>
+        
+        <div className=' rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
+          <img   width={350} className='bg-white rounded-xl border-2 border-red-600' src={img1} alt="" />
           <div >
             <h2 className='text-[32px] text-red-600 flex items-center justify-center'>Github Discussions</h2>
             <p className='p-2'>Github Discussions is a place only for github users. Create Topics and Post within that topic. Users can reply to the posts. Note: Click sign in even if you get an error - issue with nextjs caching</p>
@@ -34,8 +35,8 @@ export default function Projects() {
             <a className='text-red-600 m-2 underline text-[22px]' href="https://github-disc-git-main-tranielmp8s-projects.vercel.app/" target='_blank'>website</a>
           </div>
         </div>
-        <div className='w-72 rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
-          <img  height={350} width={300} className='bg-white rounded-xl border-2 border-red-600' src={img4} alt="" />
+        <div className='rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
+          <img  height={350} width={350} className='bg-white rounded-xl border-2 border-red-600' src={img4} alt="" />
           <div >
             <h2 className='text-[32px] text-red-600 flex items-center justify-center'>Ticket Master</h2>
             <p className='p-2'>Application for Service Tickets. Authenticated users can create their own tickets. Users are able to delete their own tickets. Priority option available  </p>
@@ -50,8 +51,8 @@ export default function Projects() {
             <a className='text-red-600 m-2 underline text-[22px]' href="https://nextjs-ticket-app-sepia.vercel.app/login" target='_blank'>website</a>
           </div>
         </div>
-        <div className='w-72 rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
-          <img  height={300} width={300} className='bg-white rounded-xl border-2 border-red-600' src={img3} alt="" />
+        <div className=' rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
+          <img  height={300} width={350} className='bg-white rounded-xl border-2 border-red-600' src={img3} alt="" />
           <div >
             <h2 className='text-[32px] text-red-600 flex items-center justify-center'>IFlex</h2>
             <p className='p-2'>Authenticated users can create workouts for the day that they choose then delete when finished Please remember your password. :)</p>
@@ -66,8 +67,8 @@ export default function Projects() {
             <a className='text-red-600 m-2 underline text-[22px]' href="https://loquacious-melomakarona-4e7ee0.netlify.app/" target='_blank'>website</a>
           </div>
         </div>
-        <div className='w-72 rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
-          <img  height={350} width={300} className='bg-white rounded-xl border-2 border-red-600' src={img5} alt="" />
+        <div className=' rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
+          <img  height={350} width={350} className='bg-white rounded-xl border-2 border-red-600' src={img5} alt="" />
           <div >
             <h2 className='text-[32px] text-red-600 flex items-center justify-center'>Expense Tracker</h2>
             <p className='p-2'>Track your expenses using local storage on your system. Basic arithmetic used to track your finances</p>
@@ -82,8 +83,8 @@ export default function Projects() {
             <a className='text-red-600 m-2 underline text-[22px]' href="https://unruffled-wing-b2c891.netlify.app/" target='_blank'>website</a>
           </div>
         </div>
-        <div className='w-72 rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
-          <img  height={350} width={300} className='bg-white rounded-xl border-2 border-red-600' src={img2} alt="" />
+        <div className=' rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
+          <img  height={350} width={350} className='bg-white rounded-xl border-2 border-red-600' src={img2} alt="" />
           <div >
             <h2 className='text-[32px] text-red-600 flex items-center justify-center'>VueChat</h2>
             <p className='p-2'>Authenticated users can chat in real time with this Vue Chat App</p>
@@ -98,8 +99,8 @@ export default function Projects() {
             <a className='text-red-600 m-2 underline text-[22px]' href="https://vue-chat-project-ed321.web.app/" target='_blank'>website</a>
           </div>
         </div>
-        <div className='w-72 rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
-          <img  height={350} width={300} className='bg-white rounded-xl border-2 border-red-600 ' src={img6} alt="" />
+        <div className=' rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
+          <img  height={350} width={350} className='bg-white rounded-xl border-2 border-red-600 ' src={img6} alt="" />
           <div >
             <h2 className='text-[32px] text-red-600 flex items-center justify-center'>Magic Cards</h2>
             <p className='p-2'>Flip the cards to see if they match. See how good your memory is</p>
