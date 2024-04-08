@@ -53,17 +53,17 @@ export default function Projects() {
         <div className='w-72 rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
           <img  height={300} width={300} className='bg-white rounded-xl border-2 border-red-600' src={img3} alt="" />
           <div >
-            <h2 className='text-[32px] text-red-600 flex items-center justify-center'>Flex Buddy</h2>
-            <p className='p-2'>Authenticated users can create workouts for the day that they choose then delete when finished </p>
+            <h2 className='text-[32px] text-red-600 flex items-center justify-center'>IFlex</h2>
+            <p className='p-2'>Authenticated users can create workouts for the day that they choose then delete when finished Please remember your password. :)</p>
           </div>
           <div className='project-tech flex'>
             <span className='pill p-2 m-1 bg-red-600 rounded-2xl'>React</span>
-            <span className='pill p-2 m-1 bg-red-600 rounded-2xl'>Node</span>
+            <span className='pill p-2 m-1 bg-red-600 rounded-2xl'>Node JS</span>
             <span className='pill p-2 m-1 bg-red-600 rounded-2xl'>MongoDB</span>
           </div>
           <div className="web-links flex">
-            <a className='text-red-600 m-2 underline text-[22px]' href="https://loquacious-melomakarona-4e7ee0.netlify.app/" target='_blank'>github</a>
-            <a className='text-red-600 m-2 underline text-[22px]' href="https://vue-ninja-flex.web.app/login" target='_blank'>website</a>
+            <a className='text-red-600 m-2 underline text-[22px]' href="https://github.com/tranielmp8/MERN_REACT_WORKOUT_FRONTEND" target='_blank'>github</a>
+            <a className='text-red-600 m-2 underline text-[22px]' href="https://loquacious-melomakarona-4e7ee0.netlify.app/" target='_blank'>website</a>
           </div>
         </div>
         <div className='w-72 rounded-xl card text-white p-2 border-2 border-red-600 project-container'>
