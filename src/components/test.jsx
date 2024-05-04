@@ -1,26 +1,17 @@
+
 import pnd1 from '../assets/pnd1.png'
 import pnd2 from '../assets/pnd2.png'
 import pnd3 from '../assets/pnd3.png'
 import pnd4 from '../assets/pnd4.png'
 import pnd5 from '../assets/pnd5.png'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
-export default function Projects() {
-
-  useEffect(()=>{
-    AOS.init({duration: 1000})
-  }, [])
-
+export default function Test() {
   return (
     <div id='Projects' className='flex flex-col items-center proj-wrapper'>
-
-      <h1 data-aos='fade-down' className='text-[32px] text-red-600' >Projects</h1>
       
       {/* custom */}
       {/* subscription platform */}
-      <div data-aos='fade-right' className="flex w-4/5 justify-center m-4  proj-container ">
+      <div  className="flex w-4/5 justify-center m-4  proj-container ">
         {/* <div className=" h-60 w-56 flex-none bg-cover img-container overflow-hidden" style={{backgroundImage: `url(${pnd1})`}} title="laptop">
 
         </div> */}

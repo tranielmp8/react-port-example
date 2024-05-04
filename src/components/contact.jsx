@@ -1,4 +1,4 @@
-import React from 'react'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect, useState } from 'react';
@@ -19,12 +19,12 @@ export default function Contact() {
       <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-red-600'>Contact Me</h1>
       <form name="contact" netlify method='POST' className='flex flex-col gap-2 lg:w-1/2 border-2 border-red-600 p-10 rounded-xl tech-glow' >
         <input type="hidden" name="form-name" value="contact" />
-        <div className='lg:flex gap-9'>
-          <input name="name" className='w-full lg:my-3 my-6 rounded-lg bg-gray-500 p-4 border-2 border-red-800  text-xl ' placeholder='Enter Your Name' type="text" value={name} onChange={(e)=> setName(e.target.value)}
+        <div className='gap-9'>
+          <input name="name" className='w-full lg:my-3 my-6 rounded-lg bg-white p-4 border-2 border-red-800  text-xl ' placeholder='Enter Your Name' type="text" value={name} onChange={(e)=> setName(e.target.value)}
           />
-          <input name='email' className='w-full lg:my-3 my-6 rounded-lg bg-gray-500 p-4 border-2 border-red-800  text-xl ' placeholder='Enter Your Email' type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+          <input name='email' className='w-full lg:my-3 my-6 rounded-lg bg-white p-4 border-2 border-red-800  text-xl ' placeholder='Enter Your Email' type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
         </div>
-        <textarea name="message" className='w-full my-4 rounded-lg bg-gray-500 p-4 border-2 border-red-800  text-xl text-slate-100'  placeholder='Enter Your Message' id="" cols="20" rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+        <textarea name="message" className='w-full my-4 rounded-lg bg-white p-4 border-2 border-red-800  text-xl text-black'  placeholder='Enter Your Message' id="" cols="20" rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
         <button className='neno-button shadow-xl hover:shadow-red-800/50 border-2 border-red-800  rounded-lg py-4 px-8 my-6 uppercase relative overflow-hidden tech-glow text-2xl text-bold text-white hover:text-black hover:bg-red-600'  type='submit'>Submit</button>
       </form>
       </div>
