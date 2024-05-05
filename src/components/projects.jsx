@@ -38,7 +38,7 @@ export default function Projects() {
           </p>
           <p className="text-sm text-gray-600 flex items-center">
             <span className='pill m-2 bg-red-600 p-2 text-white border-2 rounded-lg' >#Django</span>
-            <span className='pill m-2 bg-red-600 p-2 text-white border-2 rounded-lg' >#JavaScript</span>
+            <span className='pill m-2 bg-red-600 p-2 text-white border-2 rounded-lg' >#AWS</span>
             <span className='pill m-2 bg-red-600 p-2 text-white border-2 rounded-lg' >#HTML/CSS</span>
           </p>
 
@@ -164,7 +164,7 @@ export default function Projects() {
           <p className="text-sm text-gray-600 flex items-center">
             <span className='pill m-2 bg-red-600 p-2 text-white border-2 rounded-lg' >#django</span>
             <span className='pill m-2 bg-red-600 p-2 text-white border-2 rounded-lg' >#JavaScript</span>
-            <span className='pill m-2 bg-red-600 p-2 text-white border-2 rounded-lg' >#HTML/CSS</span>
+            <span className='pill m-2 bg-red-600 p-2 text-white border-2 rounded-lg' >#AWS</span>
           </p>
 
           <div className="web-links flex items-center justify-center ">
