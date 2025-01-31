@@ -24,7 +24,7 @@ export default function Contact() {
           />
           <input name='email' className='w-full lg:my-3 my-6 rounded-lg bg-white p-4 border-2 border-red-800  text-xl ' placeholder='Enter Your Email' type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
         </div>
-        <textarea name="message" className='w-full my-4 rounded-lg bg-white p-4 border-2 border-red-800  text-xl text-black'  placeholder='Enter Your Message' id="" cols="20" rows="10" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+        <textarea name="message" className='w-full my-4 rounded-lg bg-white p-4 border-2 border-red-800  text-xl text-black'  placeholder='Enter Your Message' id="" cols="20" rows="10" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
         <button className='neno-button shadow-xl hover:shadow-red-800/50 border-2 border-red-800  rounded-lg py-4 px-8 my-6 uppercase relative overflow-hidden tech-glow text-2xl text-bold text-white hover:text-black hover:bg-red-600'  type='submit'>Submit</button>
       </form>
       </div>
